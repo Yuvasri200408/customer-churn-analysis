@@ -1,7 +1,6 @@
 USE customer_churn_analysis;
 
--- TELCO CUSTOMER CHURN ANALYSIS (MYSQL)
--- 1. DATA VALIDATION
+-- DATA VALIDATION
 
 SELECT COUNT(*) AS total_customers
 FROM telco_churn;
@@ -13,7 +12,7 @@ SELECT *
 FROM telco_churn
 LIMIT 10;
 
--- 2. KPI ANALYSIS
+-- KPI ANALYSIS
 
 SELECT
 Churn,
@@ -33,7 +32,7 @@ SUM(CASE WHEN Churn='Yes' THEN 1 ELSE 0 END) AS churned_customers,
 SUM(CASE WHEN Churn='No' THEN 1 ELSE 0 END) AS retained_customers
 FROM telco_churn;
 
--- 3. CONTRACT ANALYSIS
+-- CONTRACT ANALYSIS
 
 SELECT
 Contract,
@@ -51,7 +50,7 @@ FROM telco_churn
 GROUP BY Contract
 ORDER BY churn_rate DESC;
 
--- 4. TENURE ANALYSIS
+-- TENURE ANALYSIS
 
 SELECT
 Churn,
@@ -86,7 +85,7 @@ AVG(CASE WHEN Churn='Yes' THEN 1 ELSE 0 END) * 100,
 FROM telco_churn
 GROUP BY customer_segment;
 
--- 5. REVENUE ANALYSIS
+-- REVENUE ANALYSIS
 
 SELECT
 Churn,
@@ -120,7 +119,7 @@ FROM telco_churn
 ORDER BY MonthlyCharges DESC
 LIMIT 10;
 
--- 6. DEMOGRAPHIC ANALYSIS
+-- DEMOGRAPHIC ANALYSIS
 
 SELECT
 gender,
@@ -158,7 +157,7 @@ AVG(CASE WHEN Churn='Yes' THEN 1 ELSE 0 END) * 100,
 FROM telco_churn
 GROUP BY Dependents;
 
--- 7. SERVICE ANALYSIS
+-- SERVICE ANALYSIS
 
 SELECT
 InternetService,
@@ -231,7 +230,7 @@ GROUP BY StreamingMovies
 ORDER BY churn_rate DESC;
 
 
--- 8. BILLING ANALYSIS
+-- BILLING ANALYSIS
 
 SELECT
 PaymentMethod,
@@ -252,7 +251,7 @@ AVG(CASE WHEN Churn='Yes' THEN 1 ELSE 0 END) * 100,
 FROM telco_churn
 GROUP BY PaperlessBilling;
 
--- 9. ADVANCED SQL ANALYSIS
+-- ADVANCED SQL ANALYSIS
 
 WITH contract_churn AS
 (
