@@ -183,14 +183,14 @@ The analysis highlights significant churn concentration among month-to-month cus
 
 ---
 
-## Project Files
+## Project File
 
-* **churn_analysis.ipynb** — Data Cleaning, EDA, and Churn Analysis
-* **telco_churn_analysis.sql** — SQL Queries and Business Analysis
-* **cleaned_telco_churn.csv** — Final Analytical Dataset
-* **customer_churn_analysis_dashboard.pbix** — Interactive Power BI Dashboard
-* **churn_dashboard_overview.png** — Dashboard Preview
-* **customer_behavior_analysis.png** — Dashboard Preview
+- churn_analysis.ipynb — Data Cleaning, EDA, and Churn Analysis
+- Telco_churn_analysis.sql — SQL Queries and Business Analysis
+- cleaned_telco_churn.csv — Final Analytical Dataset
+- customer_churn_analysis_dashboard.pbix — Interactive Power BI Dashboard
+- churn_dashboard_overview.png — Dashboard Preview
+- customer_behavior_analysis.png — Dashboard Preview
 
 ---
 
