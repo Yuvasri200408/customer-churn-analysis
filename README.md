@@ -202,16 +202,19 @@ The analysis highlights significant churn concentration among month-to-month cus
 
 ## Repository Structure
 
+## Repository Structure
+
 ```text
 customer-churn-analysis/
 
 ├── README.md
 ├── churn_analysis.ipynb
-├── telco_churn_analysis.sql
-├── cleaned_telco_churn.csv
-├── customer_churn_analysis_dashboard.pbix
 ├── churn_dashboard_overview.png
-└── customer_behavior_analysis.png
+├── cleaned_telco_churn.csv
+├── customer_behavior_analysis.png
+├── customer_churn_analysis_dashboard.pbix
+└── telco_churn_analysis.sql
+
 ```
 
 ---
