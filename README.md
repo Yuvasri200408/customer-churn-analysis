@@ -185,12 +185,18 @@ The analysis highlights significant churn concentration among month-to-month cus
 
 ## Project File
 
-- [churn_analysis.ipynb](churn_analysis.ipynb)
-- [telco_churn_analysis.sql](telco_churn_analysis.sql)
-- [cleaned_telco_churn.csv](cleaned_telco_churn.csv)
-- [customer_churn_analysis_dashboard.pbix](customer_churn_analysis_dashboard.pbix)
-- [churn_dashboard_overview.png](churn_dashboard_overview.png)
-- [customer_behavior_analysis.png](customer_behavior_analysis.png)
+* [churn_analysis.ipynb](churn_analysis.ipynb) — Complete data cleaning, exploratory data analysis (EDA), churn pattern investigation, and business insight generation using Python.
+
+* [telco_churn_analysis.sql](telco_churn_analysis.sql) — SQL queries used for KPI analysis, churn measurement, customer segmentation, contract analysis, service analysis, billing analysis, and advanced SQL reporting.
+
+* [cleaned_telco_churn.csv](cleaned_telco_churn.csv) — Final cleaned analytical dataset containing 7,032 customer records used for analysis and dashboard development.
+
+* [customer_churn_analysis_dashboard.pbix](customer_churn_analysis_dashboard.pbix) — Interactive Power BI dashboard containing churn KPIs, customer behavior analysis, and retention-focused business insights.
+
+* [churn_dashboard_overview.png](churn_dashboard_overview.png) — Executive dashboard preview highlighting churn metrics, customer distribution, contract analysis, and service-level performance.
+
+* [customer_behavior_analysis.png](customer_behavior_analysis.png) — Dashboard preview focused on tenure analysis, churn drivers, customer risk factors, and retention opportunities.
+
 
 ---
 
